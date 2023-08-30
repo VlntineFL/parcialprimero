@@ -5,11 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Componente from './Convertidor';
 import Llamada from './Llamada';
+import Saludo from './Saludo';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Componente />
     <Llamada />
+    <Saludo />
+
 
   </React.StrictMode>
 );
